@@ -5,13 +5,13 @@
 /* MAIN */
 
 html{
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body{
   background: linear-gradient(10deg,#43628b, #1f2631);
   margin: 0;
-  overflow-x: hidden;
 }
 
 
@@ -147,15 +147,15 @@ nav a:hover{
 #main{
   color: #DEF1FF;
   background-color: transparent;
-  background-image: url(../img/main-bg.jpg);
+  background-image: url(https://raw.githack.com/HuyN2105/WebJs-Css/main/img/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 100vh;
+  height: 100vh;
 }
 #about{
   color: #DEF1FF;
-  background-color: #182360;
+  background-color: linear-gradient(120deg,#182360, #324a6a);;
   min-height: 100vh;
 }
 #main .content{
@@ -193,7 +193,7 @@ nav a:hover{
   transform: translateX(100vw);
 }
 .bottom{
-  transform: translateY(25vh);
+  transform: translateY(35vh);
 }
 #contact{
   color: #DEF1FF;
@@ -239,6 +239,39 @@ img {
   max-width: 100%;
 }
 
+.title{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.title h1{
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.about-main-content{
+  font-family: 'Quicksand', sans-serif;
+  margin: 200px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.about-main-content p{
+  width: 45%;
+  display: inline-block;
+  margin: 40px;
+  font-size: 16px;
+}
+.about-main-content div{
+  width: 65%;
+}
+.about-main-content img{
+  border-radius: 15px;
+}
 .ag-format-container {
   width: 1160px;
   margin: 0 auto;
